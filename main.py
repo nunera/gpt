@@ -1,6 +1,10 @@
 import streamlit as st
-import openai, os, sys
-keys = ["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"]
+import openai, os
+
+keys = os.environ['MY_SECRET'].split()
+
+
+# keys = [""]
 def chatbot(text, token, temperature):
   prompt = text
   return openai.Completion.create(
