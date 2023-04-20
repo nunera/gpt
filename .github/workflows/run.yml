@@ -4,4 +4,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pip install streamlit openai
-      - run: streamlit run main.py
+      - run: streamlit run ../main.py
