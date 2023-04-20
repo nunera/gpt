@@ -5,3 +5,7 @@ jobs:
     steps:
       - run: pip install streamlit openai
       - run: pwd
+      - run: ls
+      - run: cd ../
+      - run: pwd
+      - run: ls
