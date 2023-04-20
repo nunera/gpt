@@ -1,6 +1,7 @@
 [server]
 runOnSave = true
 headless = true
+port = 80
 
 [browser]
 gatherUsageStats = false
