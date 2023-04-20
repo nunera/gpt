@@ -1,7 +1,7 @@
 import streamlit as st
-import openai, os
+import openai, os, sys
 
-keys = os.environ['MY_SECRET'].split()
+keys = sys.argv[0].split()
 
 
 # keys = [""]
